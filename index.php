@@ -64,45 +64,14 @@ $user_data = check_login($con);
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-6">
-            <div class="row">
-            <table class="table">
-                <thead>
-                    <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                    </tr>
-                    <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                    </tr>
-                    <tr>
-                    <th scope="row">3</th>
-                    <td colspan="2">Larry the Bird</td>
-                    <td>@twitter</td>
-                    </tr>
-                </tbody>
-                </table>
+    <div class="row justify-content-center ">
+        <a href="products.php">
+            <div class="card bg-light" style="width: 15rem;height: 10rem; ">
+                <div class="card-body text-decoration-none">
+                    <h1 class="card-text mt-10 display-4 fs-3 text-center">Products</p>
+                </div>
             </div>
-            <div class="row">
-                <a href="addproducts.php">
-                    <button class="btn btn-success  ml-2" type="button">Add product</button>
-                </a>
-            </div>
-        </div>
+        </a>
     </div>
 
    
